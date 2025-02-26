@@ -14,6 +14,7 @@ const menuItemRoutes = require('./routes/menuItemRoutes');
 app.use('/person', personRoutes);
 app.use('/menu', menuItemRoutes);
 
+// comment to see github chagnes live
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 })
